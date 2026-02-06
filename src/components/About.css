@@ -1,0 +1,112 @@
+.about-section {
+    padding: 8rem 0;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+.about-image-container {
+    position: relative;
+}
+
+.image-wrapper {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    aspect-ratio: 1/1.2;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: 30px;
+    right: -30px;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: var(--card-shadow);
+}
+
+.years {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+}
+
+.text {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-main);
+    line-height: 1.2;
+}
+
+.about-content .title {
+    margin-bottom: 2rem;
+}
+
+.about-content .description {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.about-card {
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.card-icon {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.about-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+@media (max-width: 992px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .about-image-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .experience-badge {
+        right: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-cards {
+        grid-template-columns: 1fr;
+    }
+}
