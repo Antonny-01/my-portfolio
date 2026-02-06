@@ -6,40 +6,40 @@ import './Projects.css';
 const Projects = () => {
   const projectList = [
     {
-      title: "AI Vision platform",
-      category: "Artificial Intelligence",
-      description: "A comprehensive platform for AI image generation and processing using state-of-the-art diffusion models.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-      tags: ["React", "Next.js", "OpenAI", "Tailwind"],
-      live: "#",
-      github: "#"
-    },
-    {
-      title: "Fintech Dashboard",
-      category: "Financial Technology",
-      description: "Real-time analytics dashboard for cryptocurrency traders with advanced charting and automated alerts.",
-      image: "https://images.unsplash.com/photo-1611974715853-2b8ef9a3d136?w=800&q=80",
-      tags: ["TypeScript", "Recharts", "Node.js", "PostgreSQL"],
-      live: "#",
-      github: "#"
-    },
-    {
-      title: "Urban E-commerce",
+      title: "Tech Store",
       category: "Digital Commerce",
-      description: "High-performance fashion marketplace with seamless checkout, product filtering, and inventory management.",
+      description: "A robust e-commerce solution for hardware and electronic retail, featuring a full-featured management system.",
       image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80",
-      tags: ["React", "Redux", "Stripe", "Firebase"],
+      tags: ["PHP", "MySQL", "Web App"],
       live: "#",
-      github: "#"
+      github: "https://github.com/Antonny-01/Tech-Store"
     },
     {
-      title: "Health & Fitness App",
-      category: "Mobile & Web",
-      description: "Personalized fitness tracking application with workout plans, nutrition logging, and progress visualization.",
-      image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
-      tags: ["React Native", "GraphQL", "MongoDB", "Auth0"],
+      title: "Truth or Dare",
+      category: "Entertainment",
+      description: "An engaging social game application designed with a focus on interactive user experience and clean logic.",
+      image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80",
+      tags: ["JavaScript", "Game Dev", "CSS3"],
       live: "#",
-      github: "#"
+      github: "https://github.com/Antonny-01/truth-or-dare"
+    },
+    {
+      title: "Data Visualization",
+      category: "Analytics",
+      description: "Interactive data dashboards designed to transform complex metrics into beautiful, actionable insights.",
+      image: "https://images.unsplash.com/photo-1551288049-bbbda536339a?w=800&q=80",
+      tags: ["JavaScript", "Data Viz", "Charts"],
+      live: "#",
+      github: "https://github.com/Antonny-01/data_visualization"
+    },
+    {
+      title: "Dladla Events",
+      category: "Events Platform",
+      description: "A specialized platform for event management and promotion, emphasizing local discovery and ease of use.",
+      image: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&q=80",
+      tags: ["HTML", "CSS", "UI Design"],
+      live: "#",
+      github: "https://github.com/Antonny-01/dladla-events"
     }
   ];
 
